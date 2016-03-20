@@ -17,10 +17,10 @@ body {
 
 .stream-container {
   background-color: #4a5e82;
-  height: 60px;
   padding: 0 30px 0 30px;
-  margin: 2px -15px 0px;
+  margin-top: 2px;
   color: #b8cca6;
+  height: 60px;
 }
 
 .stream-online {
@@ -45,6 +45,7 @@ body {
 
 .stream-icon {
   padding: 5px 3px 3px 3px;
+  width: 60px;
 }
 
 .streamer {
@@ -81,4 +82,3 @@ a:hover {
   white-space: nowrap;
   overflow: hidden;
 }
-

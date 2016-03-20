@@ -72,6 +72,7 @@ function queryTwitch(streamers) {
         } else if (status == 'deleted') {
           title = 'Account has been deleted! / Does not exist!';
           thumbnail = 'http://dummyimage.com/50x50/ecf0e7/5c5457.jpg&text=0x3F';
+          url = '#';
         } else {
           title = 'Offline';
           thumbnail = data.logo;
@@ -83,9 +84,9 @@ function queryTwitch(streamers) {
 
         // Generate html
         var htmlStr =
-          '<div class="stream-container ' + (status == 'online' ? 'stream-online' : '') + '">' +
+          '<div class="stream-container col-xs-12 ' + (status == 'online' ? 'stream-online' : '') + '">' +
           '  <div class="col-xs-1 stream-icon">' +
-          '    <img class="img-circle img-fluid image" src="' + thumbnail + '">' +
+          '    <img class="img-circle img-fluid" src="' + thumbnail + '">' +
           '  </div>' +
           '  <div class="col-xs-3 text-xs-center streamer"><a href="' + url + '" target="_blank">' + streamer + '</a></div> ' +
           '  <div class="col-xs-8 stream-title ellipsis">' + title + '</div>' +
