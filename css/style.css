@@ -39,8 +39,8 @@ body {
 
 #footer {
   background: #5c5457;
-  height: 10px;
-  margin: 2px -15px 0px;
+  color: white;
+  font-size: 0.8em;
 }
 
 .stream-icon {
@@ -62,7 +62,23 @@ body {
   margin-top: -5px;
 }
 
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
 .bulletless {
   list-style: none;
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+
+  /* Required for text-overflow to do anything */
+  white-space: nowrap;
+  overflow: hidden;
 }
 
