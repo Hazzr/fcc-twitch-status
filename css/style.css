@@ -1,0 +1,68 @@
+
+body {
+  background-color: #ecf0e7;
+  font-family: 'Droid Serif', serif;
+}
+
+#header {
+  margin-top: 15px;
+  background: #5c5457;
+  color: white;
+  padding: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+  max-height: 110px;
+}
+
+.stream-container {
+  background-color: #4a5e82;
+  height: 60px;
+  padding: 0 30px 0 30px;
+  margin: 2px -15px 0px;
+  color: #b8cca6;
+}
+
+.stream-online {
+  background-color: #b8cca6 !important;
+  color: #5c5457 !important;
+}
+
+#links {
+  font-size: 12px;
+}
+
+#main {
+  background-color: blue;
+  height: 200px;
+}
+
+#footer {
+  background: #5c5457;
+  height: 10px;
+  margin: 2px -15px 0px;
+}
+
+.stream-icon {
+  padding: 5px 3px 3px 3px;
+}
+
+.streamer {
+  padding-top: 20px;
+}
+
+.stream-title {
+  font-style: italic;
+  font-size: 0.9em;
+  padding-top: 20px;
+}
+
+#links {
+  line-height: 25px;
+  margin-top: -5px;
+}
+
+.bulletless {
+  list-style: none;
+}
+
